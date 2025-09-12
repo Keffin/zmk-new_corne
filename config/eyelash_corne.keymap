@@ -90,10 +90,10 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp EXCL          &kp AT  &kp HASH    &kp DLLR    &kp PRCNT                            &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK             &kp LPAR               &kp RPAR  &kp BSPC
-&trans  &kp LESS_THAN     &none   &kp RA(N8)  &kp RA(N9)  &none                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BSLH  &kp GRAVE
-&trans  &kp GREATER_THAN  &none   &kp RA(N7)  &kp RA(N0)  &none      &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp RA(N7)            &kp RA(N0)             &kp PIPE  &kp TILDE
-                                  &trans      &trans      &kp SPACE                                                             &kp RET    &trans     &trans
+&trans  &kp EXCL   &kp AT  &kp HASH        &kp DLLR        &kp RIGHT_PARENTHESIS                            &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK             &kp LPAR               &kp RPAR  &kp BSPC
+&trans  &kp GRAVE  &none   &kp LS(RA(N8))  &kp LS(RA(N9))  &none                            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BSLH  &kp GRAVE
+&trans  &kp TILDE  &none   &kp RA(N8)      &kp RA(N9)      &none                  &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp RA(N7)            &kp RA(N0)             &kp PIPE  &kp TILDE
+                           &trans          &trans          &kp SPACE                                                                         &kp RET    &trans     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
